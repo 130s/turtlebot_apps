@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package>
+  <name>turtlebot_samples</name>
+  <version>0.0.0</version>
+  <description>The turtlebot_samples package</description>
+  <maintainer email="iiysaito@opensource-robotics.tokyo.jp">Isaac I. Y. Saito</maintainer>
+  <license>BSD</license>
+  <url type="website">http://wiki.ros.org/turtlebot_samples</url>
+
+  <author email="iiysaito@opensource-robotics.tokyo.jp">Isaac I. Y. Saito</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>face_detector</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>rospy</build_depend>
+  <run_depend>face_detector</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>rospy</run_depend>
+
+  <export/>
+</package>
